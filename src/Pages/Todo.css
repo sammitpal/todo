@@ -1,0 +1,43 @@
+.todopage{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.todo_ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.MuiList-root{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    width: 40vw;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+}
+@media only screen and (max-width: 600px) {
+    .todo_ul{
+        padding-left: 10px;
+        padding-right: 10px;   
+    }
+    .MuiList-root{
+        width: 90vw;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .left{
+        margin-left: 20px;
+    }
+    .right
+    {
+        margin-right: 20px;
+    }
+}

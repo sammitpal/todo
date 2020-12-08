@@ -1,0 +1,28 @@
+.start_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.google{
+    width: 25px;
+    margin-right: 10px;    
+}
+.button{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 0.5rem 1rem;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    user-select: none;
+    margin-top: 50px;
+}
+.button:hover{
+    background-color: rgb(230, 230, 230);
+}
+.button:active{
+    transform: scale(0.9);
+}
